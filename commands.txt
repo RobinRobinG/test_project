@@ -1,0 +1,20 @@
+pwd
+cd desktop
+mkdir test
+cd test
+touch index.html
+touch style.css
+git init
+git add .
+git commit -m "initial commit"
+//update html file
+git add index.html
+git commit -m "update html"
+//update css file
+git add style.css
+git commit -m "update css"
+git log
+git reset <commit hash> --hard
+//update file
+git add .
+git commit -m"re-commit"
